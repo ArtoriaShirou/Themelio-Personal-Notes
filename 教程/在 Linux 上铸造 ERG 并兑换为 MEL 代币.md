@@ -15,6 +15,8 @@
     - [改动说明](#改动说明)
     - [反馈方式](#反馈方式)
     - [官方链接](#官方链接)
+    - [许可协议](#许可协议)
+    - [免责声明](#免责声明)
 
 ## 简介
 
@@ -173,3 +175,11 @@ Themelio Discord: <https://discord.gg/usY39nY6vM>
 Themelio Telegram: <https://t.me/themeliolabs>
 
 Themelio 官网：<https://themelio.org>
+
+### 许可协议
+
+本文采用知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议进行许可。要查看该许可协议，可访问 <http://creativecommons.org/licenses/by-nc-sa/4.0/> 或者写信到 Creative Commons, PO Box 1866, Mountain View, CA 94042, USA。
+
+### 免责声明
+
+本文只是个人笔记和想法，不是投资建议。投资有风险，入市需谨慎。
