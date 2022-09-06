@@ -12,7 +12,7 @@
     - [后台铸币](#后台铸币)
   - [附录](#附录)
     - [参考链接](#参考链接)
-    - [版本说明](#版本说明)
+    - [改动说明](#改动说明)
     - [反馈方式](#反馈方式)
     - [官方链接](#官方链接)
 
@@ -142,13 +142,17 @@ tmux a
 
 - LeanCloud.「文案风格指南」 LeanCloud 开放资源. n.p. n.d. Web. 2022-07-17. <https://open.leancloud.cn/copywriting-style-guide/>.
 
-- wikiHow.「引用网站上的文献」 wikiHow. n.p. n.d. Web. 2022-09-07. <https://zh.wikihow.com/引用网站上的文献>
+- wikiHow.「引用网站上的文献」 wikiHow. n.p. n.d. Web. 2022-09-07. <https://zh.wikihow.com/引用网站上的文献>.
 
-### 版本说明
+### 改动说明
+
+2022-09-07. 改进「版本说明」部分，其中新增「详细信息」。
 
 2022-09-07. 改进部分说明、用词、标题和标点符号，添加「在后台运行铸币程序」部分，补全参考链接。
 
 2022-07-24. 初稿。
+
+详细信息：<https://github.com/ArtoriaShirou/Themelio-Personal-Notes/commits/main/教程/在%20Linux%20上铸造%20ERG%20并兑换为%20MEL%20代币.md>
 
 ### 反馈方式
 
