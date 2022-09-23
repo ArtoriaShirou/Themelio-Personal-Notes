@@ -146,7 +146,11 @@ tmux a
 
 - wikiHow.「引用网站上的文献」 wikiHow. n.p. n.d. Web. 2022-09-07. <https://zh.wikihow.com/引用网站上的文献>.
 
+- Themelio. 「Themelio docs」 Themelio. n.p. 2022-04-15. Web. 2022-09-07. <https://docs.themelio.org/try-themelio/melminter/>
+
 ### 改动说明
+
+2022-09-23. 改进标题，补充参考链接。
 
 2022-09-07. 改进「版本说明」部分，其中新增「详细信息」。
 
