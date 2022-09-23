@@ -38,65 +38,59 @@ MEL 是 Themelio 公链的「低波动性代币」和链上主要代币，具有
 
 如果你的铸币机器在中国大陆，那么建议准备一个 **速度较快** 的代理或者 VPN，因为在准备铸币环境时需要下载较多海外网站的文件。
 
-准备一个好用的 SSH 工具，Windows 平台推荐使用 Xshell（功能强大且个人使用免费）和 Windows OpenSSH。
-
-Xshell 官网：<https://www.xshell.com/en/>
-
-Windows OpenSSH GitHub：<https://github.com/PowerShell/Win32-OpenSSH>
-
 ### 安装 Microsoft C++ 生成工具 和 Windows SDK
 
 下载地址：<https://aka.ms/vs/16/release/vs_buildtools.exe>
 
 下载完成之后，打开下载好的文件，点击继续。
 
-![点击继续](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-build-tools-and-windows-sdk-1.webp)
+![点击继续](在%20Windows%20上铸造代币/converted/install-build-tools-and-windows-sdk-1.webp)
 
 安装完成之后会自动打开，然后点击单个组件。
 
-![点击单个组件](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-build-tools-and-windows-sdk-2.webp)
+![点击单个组件](在%20Windows%20上铸造代币/converted/install-build-tools-and-windows-sdk-2.webp)
 
 搜索 **MSVC v142 - VS 2019 C++ x64/x86**，然后勾选 **MSVC v142 - VS 2019 C++ x64/x86 生成工具(最新)**。
 
-![勾选 MSVC v142 - VS 2019 C++ x64/x86 生成工具(最新)](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-build-tools-and-windows-sdk-3.webp)
+![勾选 MSVC v142 - VS 2019 C++ x64/x86 生成工具(最新)](在%20Windows%20上铸造代币/converted/install-build-tools-and-windows-sdk-3.webp)
 
 继续搜索 **Windows SDK**，勾选最新版的 Windows 10 SDK，如果你使用 Windows 11，则勾选下方的 Windows 11 SDK，然后点击右下角的安装。
 
-![勾选 Windows SDK](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-build-tools-and-windows-sdk-4.webp)
+![勾选 Windows SDK](在%20Windows%20上铸造代币/converted/install-build-tools-and-windows-sdk-4.webp)
 
 等待安装完成。
 
-![等待安装完成](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-build-tools-and-windows-sdk-5.webp)
+![等待安装完成](在%20Windows%20上铸造代币/converted/install-build-tools-and-windows-sdk-5.webp)
 
 ### 安装 Cargo
 
 打开 <https://www.rust-lang.org/learn/get-started>，点击如图所示的位置（如果你的系统是 32 bit，则点击左边的按钮）。
 
-![下载 Cargo](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-cargo-1.webp)
+![下载 Cargo](在%20Windows%20上铸造代币/converted/install-cargo-1.webp)
 
 打开下载好的文件。
 
-![打开下载好的文件](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-cargo-2.webp)
+![打开下载好的文件](在%20Windows%20上铸造代币/converted/install-cargo-2.webp)
 
 点击回车键，会自动开始安装。
 
-![安装 Cargo](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-cargo-3.webp)
+![安装 Cargo](在%20Windows%20上铸造代币/converted/install-cargo-3.webp)
 
 安装完成的截图：
 
-![安装完成的截图](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-cargo-4.webp)
+![安装完成的截图](在%20Windows%20上铸造代币/converted/install-cargo-4.webp)
 
 ### 安装 melminter 和 melwalletd
 
 按键盘上的 Windows + R 键，输入 `cmd`，Windows 键在大多数键盘上是 Ctrl 右边的按键。然后点击回车键打开 cmd。
 
-![打开 “运行”](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-melminter-and-melwalletd-1.webp)
+![打开 “运行”](在%20Windows%20上铸造代币/converted/install-melminter-and-melwalletd-1.webp)
 
-![打开 cmd](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-melminter-and-melwalletd-2.webp)
+![打开 cmd](在%20Windows%20上铸造代币/converted/install-melminter-and-melwalletd-2.webp)
 
 输入 `cargo install --locked melminter melwalletd` 并按回车键，会自动开始安装组件，此步骤需要等待的时间较长，请保持耐心。
 
-![安装 melminter 和 melwalletd](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/install-melminter-and-melwalletd-3.webp)
+![安装 melminter 和 melwalletd](在%20Windows%20上铸造代币/converted/install-melminter-and-melwalletd-3.webp)
 
 ## 开始铸币
 
@@ -116,11 +110,11 @@ melminter --payout t19rcw46nfdy3vfwejw1a4qpng3s2km6myevcm5erjk0e2094rg640
 
 输入完成后按回车键就可以开始执行铸币程序了，执行程序后，会提示让你发送 0.1 MEL 到它指定的地址（当作初始的手续费）：
 
-![输入铸币命令](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/mint-1.webp)
+![输入铸币命令](在%20Windows%20上铸造代币/converted/mint-1.webp)
 
 发送 0.1 MEL 到铸币地址后，过一会，就可以看到开始铸币了：
 
-![开始铸币](%E5%9C%A8%20Windows%20%E4%B8%8A%E9%93%B8%E9%80%A0%E4%BB%A3%E5%B8%81/converted/mint-4.webp)
+![开始铸币](在%20Windows%20上铸造代币/converted/mint-4.webp)
 
 ## 附录
 
@@ -139,6 +133,8 @@ melminter --payout t19rcw46nfdy3vfwejw1a4qpng3s2km6myevcm5erjk0e2094rg640
 - Rust. 「Install Rust」 Rust. n.p. n.d. Web. 2022-09-23. <https://www.rust-lang.org/tools/install>
 
 ### 改动说明
+
+2022-09-23. 删除多余内容。
 
 2022-09-23. 初稿。
 
